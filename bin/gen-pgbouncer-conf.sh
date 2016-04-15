@@ -38,6 +38,7 @@ stats_period = ${PGBOUNCER_STATS_PERIOD:-120}
 pkt_buf = ${PGBOUNCER_PKT_BUF:-4096}
 sbuf_loopcnt = ${PGBOUNCER_SBUF_LOOPCNT:-20}
 server_tls_sslmode = ${PGBOUNCER_SERVER_TLS_SSLMODE:-prefer}
+client_tls_sslmode = ${PGBOUNCER_CLIENT_TLS_SSLMODE:-allow}
 [databases]
 EOFEOF
 
